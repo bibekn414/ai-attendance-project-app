@@ -9,7 +9,6 @@ import streamlit as st
 def load_voice_encoder():
     return VoiceEncoder()
 
-
 def get_voice_embedding(audio_bytes):
     try:
         encoder = load_voice_encoder()
