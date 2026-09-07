@@ -36,8 +36,6 @@ def teacher_screen():
 
 
 
-
-
 def teacher_dashboard():
     teacher_data = st.session_state.teacher_data
     c1, c2 = st.columns(2, vertical_alignment='center', gap='xxlarge')
