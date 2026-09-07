@@ -3,7 +3,6 @@ import streamlit as st
 import segno
 import io
 
-
 @st.dialog("Share Class Link")
 def share_subject_dialog(subject_name, subject_code):
     app_domain = "snapclass-main.streamlit.app"
