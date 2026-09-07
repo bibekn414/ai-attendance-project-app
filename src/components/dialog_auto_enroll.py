@@ -5,6 +5,7 @@ from src.database.config import supabase
 import time
 
 
+
 @st.dialog("Quick Enrollment")
 def auto_enroll_dialog(subject_code):
     student_id = st.session_state.student_data['student_id']
