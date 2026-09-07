@@ -6,6 +6,7 @@ def subject_card(name, code, section, stats=None, footer_callback=None):
         <p style="color:#64748b; margin:10px 0;">Code : <span style="background:#E0E3FF; color:#5865F2; padding:2px 8px; border-radius:5px;">{code} </span> | Section : {section}</p>
         
         """
+
     
     if stats:
         html+= """
