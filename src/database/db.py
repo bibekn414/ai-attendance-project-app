@@ -2,7 +2,6 @@ from src.database.config import supabase
 import bcrypt
 
 
-
 def hash_pass(pwd):
     return bcrypt.hashpw(pwd.encode(), bcrypt.gensalt()).decode()
 
