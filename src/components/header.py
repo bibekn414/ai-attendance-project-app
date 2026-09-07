@@ -13,7 +13,6 @@ def header_home():
                 
                 """, unsafe_allow_html=True)
 
-
 def header_dashboard():
 
     logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
