@@ -6,6 +6,7 @@ import time
 
 from src.database.db import create_attendance
 
+
 def show_attendance_result(df, logs):
     st.write('Please review attendance before confirming.')
     st.dataframe(df, hide_index=True, width='stretch')
