@@ -40,7 +40,6 @@ def student_dashboard():
 
     st.divider()
 
-
     with st.spinner('Loading your enrolled subjects..'):
         subjects = get_student_subjects(student_id)
         logs = get_student_attendance(student_id)
